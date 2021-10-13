@@ -21,3 +21,21 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#Modificado por mi
+bin/
+.classpath
+git/
+.gitattributes
+.gradle/
+.settings/
+gradle/
+HELP.md
+README.md
+settings.gradle
+.project
+.idea/
+out/
+GatoV1.eml
+GatoV1.iml
+GatoV1.userlibraries

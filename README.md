@@ -1,2 +1,0 @@
-# ListaLigadaSimple
- Proyecto EDD
