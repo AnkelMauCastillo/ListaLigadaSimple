@@ -5,7 +5,7 @@ package mx.edu.uacm.listaligadasimple;
 public class GrupoPlanteles {
 
     private int totalPlanteles;
-    private ListaSimpleV1<Plantel> listaplanteles;
+    private ListaSimpleV1<Plantel> listaplanteles = new ListaSimpleV1<>();
 
 
 
@@ -32,7 +32,12 @@ public class GrupoPlanteles {
     }
 
     public int contarPlanteles(){
-        return  0;
+        totalPlanteles = listaplanteles.cantidad;
+        return  this.totalPlanteles;
     }
 
+    public void imprimirGrupos(){
+      listaplanteles.imprimeListaSimpleV1();
+        System.out.println(contarPlanteles());
+    }
 }

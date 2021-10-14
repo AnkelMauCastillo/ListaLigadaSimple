@@ -57,6 +57,15 @@ public class PruebaListaSimpleV1{
         System.out.println();
         System.out.println("Cantidad de Planteles: " + planteles.cantidad);
 
+        GrupoPlanteles grupos = new GrupoPlanteles();
+        grupos.guardarPlantel("SlT",10,5,"Av. San Isidro. Iztapalapa");
+        grupos.guardarPlantel("CUAUTEPEC", 8, 6, "Colonia la Corona");
+
+        grupos.imprimirGrupos();
+
+
+
+
 
     }
 }
